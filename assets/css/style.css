@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+/* header css start */
+
+header{
+    background-color: rgb(41, 84, 41);
+}
+
+header ul li {
+    display: inline;
+    margin-left: 30px;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.hamburger i{
+    font-size: 30px;
+    color: #fff;
+}
+
+
+.section-one{
+    background-color: #eee;
+}
+
+.section-one h2{
+    text-align: center;
+}
+
+.section-one .custom-card{
+    box-shadow: 0 3px 5px 0 rgb(95, 92, 92);
+}
+
+
+.section-two{
+    background-color: #ccc;
+}
+.section-three .card{
+    margin-bottom: 20px;
+}
+
+@media (max-width:576px){
+    .img{
+        width: 300px;
+    }
+}
+
+@media (max-width:280px){
+    .img{
+        width: 200px;
+    }
+}
+
