@@ -50,8 +50,28 @@ header ul li a{
 .section-two{
     background-color: #ccc;
 }
-.section-three .card{
-    margin-bottom: 20px;
+.section-three{
+    background-color: #ccc;
+}
+
+.section-three .card img{
+    height: 166px;
+}
+.section-four{
+    background-color: #ccc;
+}
+
+.section-four .btn{
+    width: 80%;
+    color: #ccc;
+}
+
+.section-four .border-show{
+    border-right: 1px solid rgb(117, 146, 125);
+}
+
+.section-four .border-show:nth-last-child(1){
+    border-right: none;
 }
 
 @media (max-width:576px){
